@@ -1,0 +1,88 @@
+export const countries = [
+  {
+    id: 1,
+    name: "Canada",
+    img: "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+    rate: 430,
+    arrow: "up",
+    percentage: "90%",
+  },
+  {
+    id: 2,
+    name: "Italy",
+    img: "https://flagicons.lipis.dev/flags/4x3/it.svg",
+    rate: 569,
+    arrow: "up",
+    percentage: "84%",
+  },
+  {
+    id: 3,
+    name: "Japan",
+    img: "https://flagicons.lipis.dev/flags/4x3/jp.svg",
+    rate: 221,
+    arrow: "down",
+    percentage: "62%",
+  },
+  {
+    id: 4,
+    name: "United States",
+    img: "https://flagicons.lipis.dev/flags/4x3/us.svg",
+    rate: 347,
+    arrow: "up",
+    percentage: "39%",
+  },
+  {
+    id: 5,
+    name: "South Africa",
+    img: "https://flagicons.lipis.dev/flags/4x3/za.svg",
+    rate: 154,
+    arrow: "up",
+    percentage: "12%",
+  },
+  {
+    id: 6,
+    name: "New Zealand",
+    img: "https://flagicons.lipis.dev/flags/4x3/nz.svg",
+    rate: 185,
+    arrow: "down",
+    percentage: "26%",
+  },
+];
+export const team = [
+  {
+    id: 1,
+    name: "Member 1",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Top Trader",
+  },
+  {
+    id: 2,
+    name: "Member 2",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Manager",
+  },
+  {
+    id: 3,
+    name: "Member 3",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Top Trader",
+  },
+  {
+    id: 4,
+    name: "Member 4",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Manager",
+  },
+  {
+    id: 5,
+    name: "Member 5",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Top Trader",
+  },
+  {
+    id: 6,
+    name: "Member 6",
+    img: "https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png",
+    profile: "Manager",
+  },
+];

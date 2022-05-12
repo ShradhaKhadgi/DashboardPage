@@ -1,13 +1,72 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pointer{
+  cursor: pointer;
+}
+.icon, label, .text{
+  color: #c0c2c4;
+}
+.profile_icon{
+  width: 3rem;
+  height: 3rem;
+}
+.profile_icon2{
+  width: 2rem;
+  height: 2rem;
+}
+.box{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+a:active{
+  color: #2d0290;
+}
+a:hover .icon{
+  color:#2d0290;
+}
+a:hover label{
+  color: #2d0290;
+}
+.currency{
+  background: #d2ddfa;
+  color: #5580ed;
+}
+.account {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-image: linear-gradient(to top, #b102ff, #8e07e4, #6d07c8, #4d05ac, #2d0290);
+  background-size: cover;
+}
+.account_details {
+  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.account_details h2 {
+  margin-bottom: -3rem;
+}
+.btn-lg{
+  background-color: #4d05ac !important;
+  color: #fff !important;
+}
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #e8e8e8;
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (max-width: 991px){
+  .profit{
+    border: none !important;
+  }
 }
